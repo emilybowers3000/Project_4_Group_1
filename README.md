@@ -24,23 +24,25 @@ Data are sourced from Kaggle.com, In Hospital Mortality Prediction Dataset, Admi
 
 
 ## Instructions on How to Use and Interact with Data
-Explore Tableau dashboard, public use file here: 
-You can download the dashboard to review existing data insights and also create your own through the dashboard. 
+Explore Tableau dashboard, public use file here: https://public.tableau.com/shared/M6R8FZH2C?:display_count=n&:origin=viz_share_link
+
+You can download the dashboard to review existing data insights and also create your own insights through the dashboard. 
 
 ## Data Methods & Tools Used
 - Data Exploration and Preparation: 
-Cleaning data: Checked for missing values and determined to keep records with missing clinical information as NA.Removed one record as the Outcome was not recorded (death or alive).
+Cleaning data: Checked for missing values and determined to keep records with missing clinical information as NA. We removed one record as the Outcome was not recorded (0 = expired, 1= not expired).
   - Tools: Python, Pandas
 
 - Model Selection and Training:
-Exploratory Data Analysis: We explored the dataset to understand the relationships between different variable groups (lab values, vital signs, comorbidities) and determined to use these groupings as collective variables for testing.
-Classification Model: We chose Decision tree model because the dataset consisted of non-linear data and the project required binary classification (expired or not expired). The dataset was split into training and testing sets utilizing standardScaler to ensure all features tested have the same scale. We did not utilize Stratified Sampling due to when we tested the model with stratified sampling, the accuracy and precision decreased. We tested 4 variable groups - lab values, vital signs, comorbidities, and all clinical data combined to determine which variable groups may be helpful in determining inpatient mortality. 
-  - Tools:Python, Pathlib, sklearn, matplotlib, seaborn
+    - Exploratory Data Analysis We explored the dataset to understand the relationships between different variable groups (lab values, vital signs, comorbidities) and determined to use these groupings as collective variables for testing.
+
+    -Classification Model: We chose a Decision tree model because the dataset consisted of non-linear data and the project required binary classification (expired or not expired). The dataset was split into training and testing sets utilizing standardScaler to ensure all features tested have the same scale. We did not utilize Stratified Sampling due to when we tested the model with stratified sampling, the accuracy and precision decreased. We tested 4 variable groups - lab values, vital signs, comorbidities, and all clinical data combined to determine which variable groups may be helpful in predicting inpatient mortality. 
+        - Tools:Python, Pathlib, sklearn, matplotlib, seaborn
 
 - Visualization:
   - Jupyter notebook, Python, seaborn
   - Tableau Dashboard to display descriptive characteristics of patient population and outcomes of model testing
-- Report/README File:
+- README File:
   - VSCode
 - Presentation:
   - Google Slides
@@ -70,9 +72,11 @@ Classification Model: We chose Decision tree model because the dataset consisted
     - Overall, 86% of patients did not expire while inpatient
 
 ## References
-We utilized prior class activities to help write and/or modify code for specific use in this project. Addtionally, xxxx
-We utilized xxxxx
+We utilized prior class activities to help write and/or modify code for specific use in this project. Addtionally, we utilized https://scikit-learn.org/stable/modules/tree.html
+We utilized (https://www.geeksforgeeks.org/confusion-matrix-machine-learning/) to help understand Confusion matrices and data output. 
 
 
 ## Presentation
-Our visualizations can be found on our xxxxx
+Our visualizations can be found on our Tableau dashboard: https://public.tableau.com/shared/SNBMQKXPM?:display_count=n&:origin=viz_share_link
+
+Presentation slides here: 
