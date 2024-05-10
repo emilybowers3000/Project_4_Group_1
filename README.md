@@ -24,7 +24,7 @@ Data are sourced from Kaggle.com, In Hospital Mortality Prediction Dataset, Admi
 
 
 ## Instructions on How to Use and Interact with Data
-Explore Tableau dashboard, public use file here: https://public.tableau.com/shared/M6R8FZH2C?:display_count=n&:origin=viz_share_link
+Explore Tableau dashboard, public use file here: https://public.tableau.com/views/Project4InhospitalMortalityPredictionamongHFICUAdmissions/PredictingInpatientMortalityamongICU-AdmittedHeartFailurePatients?:language=en-US&publish=yes&:sid=&:display_count=n&:origin=viz_share_link
 
 You can download the dashboard to review existing data insights and also create your own insights through the dashboard. 
 
@@ -77,6 +77,6 @@ We utilized (https://www.geeksforgeeks.org/confusion-matrix-machine-learning/) t
 
 
 ## Presentation
-Our visualizations can be found on our Tableau dashboard: https://public.tableau.com/shared/SNBMQKXPM?:display_count=n&:origin=viz_share_link
+Our visualizations can be found on our Tableau dashboard: https://public.tableau.com/views/Project4InhospitalMortalityPredictionamongHFICUAdmissions/PredictingInpatientMortalityamongICU-AdmittedHeartFailurePatients?:language=en-US&publish=yes&:sid=&:display_count=n&:origin=viz_share_link
 
-Presentation slides here: 
+Presentation slides here: https://docs.google.com/presentation/d/1V1hcqs13FkiArblcBQT04jzCoEBJhqElPRSlOiJYRb8/edit?usp=sharing
